@@ -1,0 +1,43 @@
+{
+  "name": "minecraft-stress-tester-proxy",
+  "version": "1.0.0",
+  "description": "Minecraft Stress Tester GUI with SOCKS5 Proxy Support",
+  "main": "botterkaproxyscape.js",
+  "author": "Adisek",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "dist:win": "electron-builder --win",
+    "dist:linux": "electron-builder --linux"
+  },
+  "dependencies": {
+    "axios": "^1.7.0",
+    "mineflayer": "^4.39.0",
+    "socks": "^2.8.3"
+  },
+  "devDependencies": {
+    "electron": "^30.5.1",
+    "electron-builder": "^26.15.3"
+  },
+  "build": {
+    "appId": "com.minetester.proxy.app",
+    "productName": "MinecraftStressTesterProxy",
+    "files": [
+      "**/*",
+      "!dist/**/*"
+    ],
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": "portable"
+    },
+    "linux": {
+      "target": [
+        "tar.gz",
+        "zip"
+      ],
+      "category": "Utility"
+    }
+  }
+}
