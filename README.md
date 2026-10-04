@@ -1,5 +1,7 @@
 # 🌐 Minecraft Server Stress Tester GUI (Proxy Support)
 
+<img width="1919" height="1034" alt="image" src="https://github.com/user-attachments/assets/16409741-9221-4f79-b6b0-b5f1f176953a" />
+
 Zaawansowana aplikacja desktopowa zbudowana na bazie **Electron** oraz **Mineflayer**, przeznaczona do testowania wydajności, obciążenia (**stress-test**) oraz stabilności serwerów Minecraft z obsługą połączeń przez **SOCKS5 Proxy**.
 
 ![Electron](https://img.shields.io/badge/Electron-30.x-4B8BF5?style=flat&logo=electron)
